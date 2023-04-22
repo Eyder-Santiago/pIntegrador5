@@ -5,6 +5,7 @@ import Lemon from './models/Lemon'
 import { Hamburger } from './models/Hamburguer'
 import  Pared_Video from './models/Pared_Video'
 import Pared_Imagen from './models/Pared_Imagen'
+import Floor from './Floor'
 
 export default function Experience() {
     return <>
@@ -15,8 +16,8 @@ export default function Experience() {
         <Sky />
         <Banana position-x = {-1} scale={0.1}/>
         <Lemon position-x = {1} scale={0.1}/>
-        <Hamburger position-x = {0} scale={0.08}/>
         <Pared_Video/>
         <Pared_Imagen/>
+        <Floor/>
     </>
 }
